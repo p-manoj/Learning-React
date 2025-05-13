@@ -1,0 +1,28 @@
+npm => not node package manager
+it manages the packages in the project
+// npm init -y => it will create a package.json file with default values
+but it does not stand for node package manager
+// it is a recursive acronym for node package manager
+npm is a biggest repository for javascript packages, utilities, frameworks etc. 
+npm init - y => it will create a package.json file with default values, without - y it will ask for the values to be filled in the package.json file.
+    Bundler : - it is a tool that takes all the files and assets of your project and combines them into a single file or a few files.It helps to optimize the performance of your application by reducing the number of requests made to the server.It also helps to manage dependencies and ensures that all the required files are included in the final output.
+// Webpack is a module bundler for modern JavaScript applications. It takes modules with dependencies and generates static assets representing those modules. It is used to bundle JavaScript files for usage in a browser.
+it packages all the files and put it to production mode and minifies the code to make it smaller in size and faster to load.It also helps to manage dependencies and ensures that all the required files are included in the final output.
+npm install - D : -D is a shorthand for --save - dev, which means that the package will be installed as a development dependency.This means that the package is only needed during development and not in production.It will be added to the devDependencies section of the package.json file.
+^ in package version means that it will upgrade to the latest minor version upgrade but not the major version upgrade.
+// ~ in package version means that it will upgrade to the latest patch version upgrade but not the minor or major version upgrade.
+^ is default in package.json file
+Node modules: - contains all the packages with transitive dependencies
+
+    ****** npm is to install the packages
+npx is to execute the packages with parameters required. ******
+
+
+React Component: - is a function that returns a "JSX element or react element". It is a reusable piece of code that can be used to create UI elements in a React application. It can accept props as arguments and can manage its own state using hooks. 
+Name of the component should start with a capital letter.
+to render a react component, it must be wrapped in </> tag.
+
+component inside another component is called component composition.
+
+To put a react elemnt inside a react component, it will be placed as {}. because it is a normal
+javascript variable.

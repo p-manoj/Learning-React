@@ -1,0 +1,36 @@
+{
+  "name": "namstey-react",
+  "version": "1.0.0",
+  "description": "learning react from scratch ",
+  "default": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-manoj/Learning-React.git"
+  },
+  "keywords": [
+    "react",
+    "learn-react"
+  ],
+  "author": "Manoj Patidar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p-manoj/Learning-React/issues"
+  },
+  "homepage": "https://github.com/p-manoj/Learning-React#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "namstey-react": "file:",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
