@@ -21,3 +21,13 @@ jsx also allows javascript code to be run inside {}.
 So all the js variable, expression can be run via {}.
 
 Jsx also does code sanitizing to avoid XSS attack. (injected via {js code}).
+
+if we use {} curly bracket then we have to return from an arrow function.
+without {} no need of explicitly return.
+
+to give inline css in jsx, we have to use js object as style properties.
+ const style = {
+    background:"Light Gray"
+ };
+
+ <h1 style={style}>Hello</h1>

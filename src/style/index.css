@@ -1,0 +1,79 @@
+/* h1,   for basic react js only.
+h2 {
+    color: red
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-items>ul {
+    font-size: large;
+    display: flex;
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    background-color: #abbedf;
+}
+
+.res-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.res-card {
+    margin: 5px;
+    width: 200px;
+
+    padding: 10px;
+
+}
+
+.res-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.search-container {
+    padding: 10px;
+}
+
+.res-logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-container {
+    margin: auto;
+}

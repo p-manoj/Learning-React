@@ -20,27 +20,28 @@ root.render(jsxheading);
 
 
 //react functional component
-const HeadingComponent = (prop) => {
+const HeadingComponent = (asdf) => {
+    console.log(asdf);
     return (
         <div>
-            <h1> Hello World from Namastey React! via functional component { }</h1>
+            <h1> Hello World from Namastey React! via functional component {asdf["data-via"]}</h1>
             <h2> this is second heading via functional component { } </h2>
         </div>
     );
 }
 
-root.render(HeadingComponent());
-console.log(HeadingComponent());
-console.log(<HeadingComponent />);
+// root.render(HeadingComponent());
+// console.log(HeadingComponent());
+// console.log(<HeadingComponent />);
 
 const CompositeComponent = () => { //this is a component composition  <!-- this is a react element inside component -->
     return (
         <div>
 
             {jsxheading}
-            <HeadingComponent data-via="composition" />
-            <HeadingComponent data-via="composition" />
-            <HeadingComponent data-via="composition" />
+            <HeadingComponent data-via="properties" />
+            <HeadingComponent data-via="properties" />
+            <HeadingComponent data-via="properties" />
         </div>
     );
 }

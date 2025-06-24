@@ -26,3 +26,68 @@ component inside another component is called component composition.
 
 To put a react elemnt inside a react component, it will be placed as {}. because it is a normal
 javascript variable.
+
+Config Driven UI ->  Webapp driven by Data. Based on Data the UI will appear. Controling the UI based on data.
+for ex. for a particular brand, different different offers are there for different cities, then for each cities the UI 
+will look different, But in that case the core UI code will be the same, it is the data which makes the UI look different.
+So, the DATA is deriving the UI.
+
+another example may be an weather app, where based on weather condition we might want to show background colors, 
+for rainy - blue, sunny-yellow/red. winter-silver/white
+
+
+to iterate over a list using map , we must use the key property to
+uniquely identify the row. so that, React can render that changed component only, not all the component.
+Never Use index as the keys.
+
+
+Two types of exports, Named and Default
+In named exports we simply use export before every variable/function. and while 
+importing it must be imported within {}.
+export const URL = "some.url"
+import {URL} from "./exporting/module/path"
+A module can have multiple named exports.
+
+In default export -> A module can only have one default export.
+to export default, first declare and define the variable. and then 
+export it.
+
+const DEFAULT_URL = "default.url";
+export default DEFAULT_URL;
+
+to Import, it does not require {}.
+import DEFAULT_URL from "./default/exporting/module/path"
+and in default export while importing we can use any name irrespective of 
+name defined in module.
+
+React Hooks -> React Hooks are normal javascript function which returns a 
+state variable for a component and a function to update the value of the variable.
+mainly two types of hooks are there
+
+useState - to define the state of a component, so that whenever the state changes, component re-renders Automatically.
+A state is a local variable to the component and whenever a state gets updated, React triggers a Reconciliation cycle
+i.e. Re-Renders that Component.
+
+useEffect - to use the external things inside react like fetching data from external api, or doing some work other then React after the 
+Components loads.
+Hooks are named import of react.
+useEffect accept two arguments:
+    1. Callback function -> to  be called after Component renders.
+    2. Dependency Array -> An array of variable which when changes, useEffect needs to be called. (Optional)
+        there are three possible cases for dependency array
+            a. No array passed (second parameter is empty) -> useEffect(callback func) will be called every time component renders.
+            b. Empty array Passed ([]) -> useEffect will be called for once.
+            c. Array with some dependency --> useEffect will be called every time that dependeny changed.
+But only when the component re(Renders);
+
+MicroService Architecture:-
+    - Single Responsibility Principle
+    - Seperation of Concerns
+
+CORS policy
+Browser restrict the access of cross URL not the destination one.
+
+To convert json object into string --> JSON.stringify(obj);
+
+CORSPROXY.IO --> corsproxy.io is the site which bypass the cors policy 
+in execution. We have to append the target URL to https://corsproxy.io/?url=https://example.com

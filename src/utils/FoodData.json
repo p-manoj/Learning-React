@@ -1,0 +1,650 @@
+[
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+      "id": "65267",
+      "name": "McDonald's",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/20/1f223f2e-bae2-495f-959d-8c50c9a170a6_65267.jpg",
+      "locality": "South Tukoganj",
+      "areaName": "South Tukoganj",
+      "costForTwo": "₹400 for two",
+      "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+      "avgRating": 4.4,
+      "parentId": "630",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "17K+",
+      "sla": {
+        "deliveryTime": 27,
+        "lastMileTravel": 2.4,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "2.4 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2025-05-19 23:45:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Burger.png",
+            "description": "Delivery!"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹179"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "4.3",
+          "ratingCount": "7.0K+"
+        },
+        "source": "GOOGLE",
+        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-7cd210fc-8ebe-47ea-90cd-398bf668ca84"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/indore/mcdonalds-south-tukoganj-rest65267",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+      "id": "625686",
+      "name": "Wow! Momo",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/21/3e7561a6-46f7-43fb-8109-f7e5af5c1556_625686.jpg",
+      "locality": "MG Road",
+      "areaName": "South Tukoganj",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["Momos", "Chinese", "fastfood", "Asian", "Beverages"],
+      "avgRating": 4.2,
+      "parentId": "1776",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "517",
+      "sla": {
+        "deliveryTime": 46,
+        "lastMileTravel": 2.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "45-50 mins",
+        "lastMileTravelString": "2.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2025-05-20 00:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹19"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "4.2",
+          "ratingCount": "181"
+        },
+        "source": "GOOGLE",
+        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-7cd210fc-8ebe-47ea-90cd-398bf668ca84"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/indore/wow-momo-mg-road-south-tukoganj-rest625686",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+      "id": "728301",
+      "name": "Burger King",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/d6c7b865-ccb8-44e7-8117-0676d6f7656b_728301.jpg",
+      "locality": "New Palasia",
+      "areaName": "Indore",
+      "costForTwo": "₹350 for two",
+      "cuisines": ["Burgers", "American"],
+      "avgRating": 4.3,
+      "parentId": "166",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "8.1K+",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2025-05-20 05:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "Rxawards/_CATEGORY-Burger.png",
+            "description": "Delivery!"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Delivery!",
+                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-7cd210fc-8ebe-47ea-90cd-398bf668ca84"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/indore/burger-king-new-palasia-indore-rest728301",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+      "id": "968016",
+      "name": "China Town",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/4/04188c10-3151-483c-9db6-f0a17c55a5b1_968016.jpg",
+      "locality": "New Palasia",
+      "areaName": "New Palasia",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["Snacks", "Chinese", "Waffle", "Pastas"],
+      "veg": true,
+      "parentId": "369370",
+      "avgRatingString": "--",
+      "sla": {
+        "deliveryTime": 35,
+        "lastMileTravel": 4,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30-35 mins",
+        "lastMileTravelString": "4.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2025-05-19 23:59:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-7cd210fc-8ebe-47ea-90cd-398bf668ca84"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/indore/china-town-new-palasia-rest968016",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+      "id": "778987",
+      "name": "Wendy's Burgers",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/11/088f9051-d015-4a45-8991-070d40ffb487_778987.JPG",
+      "locality": "Behind Malhar Megamall",
+      "areaName": "Vijay Nagar Indore",
+      "costForTwo": "₹400 for two",
+      "cuisines": ["Burgers", "American", "Fast Food", "Snacks"],
+      "avgRating": 4.2,
+      "parentId": "972",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "864",
+      "sla": {
+        "deliveryTime": 46,
+        "lastMileTravel": 6.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "45-50 mins",
+        "lastMileTravelString": "6.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2025-05-19 23:59:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹59"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-7cd210fc-8ebe-47ea-90cd-398bf668ca84"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/indore/wendys-burgers-behind-malhar-megamall-vijay-nagar-indore-rest778987",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+      "id": "198432",
+      "name": "The Biryani Life",
+      "cloudinaryImageId": "mclqhksycwrqrvlxyt4v",
+      "locality": "NR MAHI SALON",
+      "areaName": "SAKET SQUARE",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "Biryani",
+        "Mughlai",
+        "Lucknowi",
+        "Hyderabadi",
+        "Kebabs",
+        "Desserts",
+        "Beverages"
+      ],
+      "avgRating": 4.3,
+      "parentId": "8496",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "873",
+      "sla": {
+        "deliveryTime": 37,
+        "lastMileTravel": 4.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "35-40 mins",
+        "lastMileTravelString": "4.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2025-05-19 23:59:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹159"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-7cd210fc-8ebe-47ea-90cd-398bf668ca84"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/indore/the-biryani-life-nr-mahi-salon-saket-square-rest198432",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+      "id": "86719",
+      "name": "Cafe Coffee Day",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/19/7db81317-eada-4494-be72-3a9a3e07a565_86719.JPG",
+      "locality": "TREASURE ISLAND 2 MALL INDORE MP",
+      "areaName": "South Tukoganj",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Beverages",
+        "Cafe",
+        "Snacks",
+        "Desserts",
+        "Burgers",
+        "Ice Cream",
+        "Bakery",
+        "Fast Food"
+      ],
+      "avgRating": 4.4,
+      "parentId": "1",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "440",
+      "sla": {
+        "deliveryTime": 28,
+        "lastMileTravel": 1.7,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25-30 mins",
+        "lastMileTravelString": "1.7 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2025-05-19 23:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-7cd210fc-8ebe-47ea-90cd-398bf668ca84"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/indore/cafe-coffee-day-treasure-island-2-mall-mp-south-tukoganj-rest86719",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+      "id": "1072626",
+      "name": "Cheesecake & Co.",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/24/7f6b41f0-6c0d-4cbe-b42f-06ac566ec970_1072626.jpg",
+      "locality": "Godbole Colony",
+      "areaName": "Sudama Nagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["Bakery", "Desserts"],
+      "avgRating": 4.4,
+      "veg": true,
+      "parentId": "387417",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "6",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "5.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2025-05-19 23:59:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "isNewlyOnboarded": true,
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+        "aggregatedRating": {
+          "rating": "--"
+        }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+      "context": "seo-data-7cd210fc-8ebe-47ea-90cd-398bf668ca84"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/city/indore/cheesecake-and-co-godbole-colony-sudama-nagar-rest1072626",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  }
+]
