@@ -91,3 +91,38 @@ To convert json object into string --> JSON.stringify(obj);
 
 CORSPROXY.IO --> corsproxy.io is the site which bypass the cors policy 
 in execution. We have to append the target URL to https://corsproxy.io/?url=https://example.com
+
+
+To work with multiple pages we need Routers. React-Router-dom library provides 
+routing functionality to react. I can be part of our project by npm i react-router-dom.
+
+To inject router in our app, we need to get two thing from react-router-dom(rrd)
+    1. createBrowserRouter -> a function which takes an array of objects which contains path and corrosponding 
+        element (component which will render for that path).
+        For ex. const routes = createBrowserRouter([
+            {
+                path:"/",
+                element:<Home/>
+            },
+            {
+                path:"/about",
+                element:<About/>
+            }
+        ]).
+    2. after getting the router variable for all paths, we need a component which can render components based on the
+        Path. to do that we need special component by library i.e. RouterProvider.
+        root.render(<RouterProvider router={routes}>);
+        //earlier we are only rendering single component and that was our own, to render different components
+        based on path, this special component will do the magic.
+There is another Hook associated with React-Router-Dom i.e. useRouteError.
+When there is no path associated to given url or a wrong path is given, then it will throw errors on the UI, like 404 not found,
+the same can be displayed via custom component and it will be third element in the route object. i.e. 
+        const routes = createBrowserRouter([
+            {
+                path:"/",
+                element:<Home/>,
+                errorElement:<Error/>
+            }
+        ]);
+        The useRouteError hook will be used in <Error /> component to get more details about the error.
+        using those details <Error/> component can be made more meaningful.

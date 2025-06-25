@@ -19,12 +19,16 @@ const Body = () => {
 
         const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=23.4631098&lng=75.4094926&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         const resData = await data.json();
-        console.log(resData);
-
-        setList(resData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        console.log(List);
-        setResList(resData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        console.log(resList);
+        const resCards = resData?.data?.cards;
+        for (let cards of resCards) {
+            const restaurant = cards?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+            if (restaurant) {
+                console.log(restaurant);
+                setList(restaurant);
+                setResList(restaurant);
+                break;
+            }
+        }
     }
 
     //Conditional Rendering
